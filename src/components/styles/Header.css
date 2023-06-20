@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    line-height: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: .25s;
+}
+
+/* button {
+    background: transparent;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-size: .875em;
+    font-weight: 600;
+    height: 2em;
+    letter-spacing: -.025em;
+    text-transform: uppercase;
+    transition: .25s;
+}
+
+button:hover {
+    background-color: var(--item-bg)
+} */
+
+header {
+    min-height: 100vh;
+}
+
+img {
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+    width: 100%;
+}
+
+p {
+    font-size: 1.25em;
+    hyphens: auto;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+
+.container {
+    padding: 1em;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.logo-link {
+    font-weight: 600;
+    font-size: 1.35em;
+    letter-spacing: .125em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--a-alternate);
+}
+
+.header-nav {
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .75em 0;
+}
+
+.nav-menu-link {
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    padding: .5em .75em;
+    text-transform: uppercase;
+    color: var(--grey-font-color);
+}
+
+/* IMAGE IN HEADER */
+
+/* .header-img {
+    border-radius: 50%;
+    height: 15em;
+    margin: 2em auto;
+    overflow: hidden;
+    width: 15em;
+} */
+
+.header-opening {
+    margin: auto;
+    max-width: 30em
+}
+
+.header-title {
+    color: var(--h1-alternate);
+    font-size: 3.5em;
+    letter-spacing: -.025em;
+    line-height: 1.25;
+    margin-left: -.0625em;
+    text-transform: uppercase;
+}
+
+
+/* SMALLER SCREENS - TO DESKTOP */
+@media only screen and (min-width: 1024px) {
+    header {
+        overflow: hidden;
+    }
+
+    img {
+        object-position: 50% 100%;
+    }
+
+    .container {
+        padding: 2em;
+    }
+
+    .header-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-menu-link {
+        padding: 0 1.5em;
+    }
+
+
+    .header-content {
+        position: relative;
+    }
+
+    .header-opening {
+        margin: 6em 3em 0;
+        max-width: 50vw;
+    }
+
+    .header-title {
+        font-size: calc(1vw + 3.5em);
+    }
+
+    /* .header-img {
+        height: 55vw;
+        margin: 0;
+        position: absolute;
+        right: -16vw;
+        top: 0vw;
+        width: 55vw;
+    } */
+}
+
+/* MOBILE */
+@media only screen and (orientation: portrait) and (min-height: 1024px) {
+    .header-content {
+        margin-top: 15vh;
+    }
+}

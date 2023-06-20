@@ -8,10 +8,18 @@
 
 /* HEADER COLOR */
 --h1-header: #101646;
+--h1-alternate: #1E3C32;
 
 /* LINK COLOR */
 --a-standard: #002045;
+--a-alternate: #1E3C32;
+
+/* GLOBAL COLORS */
+--grey-font: #151515;
+
 }
+
+
 
 
 body {
