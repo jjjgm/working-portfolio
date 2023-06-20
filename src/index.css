@@ -1,0 +1,29 @@
+:root {
+  /* BACKGROUND COLORS */
+--main-bg: #f7f6f4;
+--item-bg:  #f7f5f2;
+
+/* SECOND FONT - NO SERIF */
+--feature-sans-serif: 'Lato', sans-serif;
+
+/* HEADER COLOR */
+--h1-header: #101646;
+
+/* LINK COLOR */
+--a-standard: #002045;
+}
+
+
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont;
+  font-family: 'Cormorant', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-bg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
