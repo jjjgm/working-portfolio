@@ -1,0 +1,86 @@
+.portfolio-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.portfolio-grid figure {
+    border: 1px solid #333;
+    position: relative;
+    font-size: 0;
+    margin-left: 0;
+    margin: 2% 0;
+    flex: 0 0 48%;
+}
+
+/* .portfolio-grid figure:nth-child(even) img {
+    float: right;
+} */
+
+/* .portfolio-grid figure img {
+    width: 60%;
+    height: auto;
+    margin-top: -2rem;
+} */
+
+/* GRID HEADER */
+.portfolio-grid figure caption {
+    position: absolute;
+    right: 4%;
+    /* WHERE HEADER SITS ABOVE / INLINE */
+    top: -34%;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--h1-header);
+    text-align: right;
+}
+
+/* GRID P */
+.figure-text {
+    /* position: absolute; */
+    right: 4%;
+    top: 5%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 1em 0;
+    text-align: left;
+}
+
+.portfolio-grid figure:nth-child(even) caption {
+    left: 4%;
+    right: auto;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 900px) {
+    .portfolio-grid figure caption {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio-grid figure caption {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .portfolio-grid figure {
+        flex: 0 0 100%;
+        margin-bottom: 7%;
+    }
+
+    .portfolio-grid figure caption {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio-grid figure caption {
+        font-size: 1.2rem;
+        width: 50%;
+    }
+}

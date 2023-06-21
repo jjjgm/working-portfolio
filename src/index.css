@@ -16,11 +16,16 @@
 
 /* GLOBAL COLORS */
 --grey-font: #151515;
-
 }
 
 
-
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: auto;
