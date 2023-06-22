@@ -19,7 +19,7 @@ function Image() {
                                  <br/>
                         <p>
                                 
-                                  Currently, I'm diving into learning UI/UX accesibility principles.
+                                  Currently, I'm diving into learning more about UI/UX accessibility principles.
                             </p>
                         </div>
                     </div>

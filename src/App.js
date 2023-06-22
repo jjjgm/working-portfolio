@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Portfolio from './components/Portfolio';
 import Image from './components/Image';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
 
+          <Footer/>
         </Router>
       </header>
     </div>

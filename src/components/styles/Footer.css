@@ -1,0 +1,16 @@
+.footer-nav {
+    align-items: end;
+    flex-direction: column;
+}
+
+
+
+.footer-logo {
+    font-weight: 600;
+    font-size: 1.45em;
+    letter-spacing: .125em;
+    text-decoration: none;
+    color: var(--a-alternate);
+    text-align: right;
+    padding: .5em .75em;
+}

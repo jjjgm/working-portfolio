@@ -135,6 +135,18 @@ textarea {
     font-size: 1.4em;
 }
 
+.resume-link a {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: var(--a-feature)
+}
+
+.resume-link a:hover {
+    font-size: 1.64rem;
+    color: var(--font-grey)
+}
+
 @media screen and (max-width: 768px) {
     #container {
         margin: 20px auto;

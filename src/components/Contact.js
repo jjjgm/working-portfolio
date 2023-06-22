@@ -1,6 +1,8 @@
 import { useState, React } from 'react';
 import './styles/Contact.css';
 
+import { PiArrowSquareOutThin } from 'react-icons/pi';
+
 function Contact() {
 
     const [name, setName] = useState('');
@@ -40,6 +42,7 @@ function Contact() {
     return (
 
         <div>
+             
             <form action="#" method="post" id="contact_form" onSubmit={handleSubmit}>
 
                 <div className="name">
@@ -67,7 +70,16 @@ function Contact() {
                 <div className="submit">
                     <input type="submit" value="Submit Message" id="form_button" />
                 </div>
+<br/>
+                <div className="resume-link">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vRhkb2j9Vyz9q-rgvlv6jlKGNnfdoD4XC_jsnKyZGmwaWTIXDpsvfRfw-Q0Tl6L0G2r-qP9-boeLYB-/pub">
+                   VIEW MY RESUME <PiArrowSquareOutThin/>
+                </a>
+                </div>
+               
             </form>
+
+            
         </div>
     );
 }

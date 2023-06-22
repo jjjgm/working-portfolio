@@ -48,6 +48,12 @@ header {
     transition: .25s;
 }
 
+.nav-menu-link:hover {
+    font-weight: 800;
+    color: var(--a-feature);
+    transition: .25s;
+}
+
 .header-opening {
     margin: auto;
     max-width: 80em
@@ -72,6 +78,18 @@ header {
     font-family: var(--feature-sans-serif);
 }
 
+.header-icons a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--a-feature);
+}
+
+.header-icons a:hover {
+    font-size: 2.23rem;
+    color: var(--font-grey);
+    font-weight: 800;
+}
+
 /* IMAGE IN HEADER */
 
 /* .header-img {
@@ -93,10 +111,6 @@ header {
     .header-img  {
         object-position: 50% 100%;
     }
-
-    /* .container {
-        padding: 2em;
-    } */
 
     .header-nav {
         flex-direction: row;
