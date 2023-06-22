@@ -3,9 +3,10 @@ import Header from './components/Header';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import About from './components/About';
+
 import Portfolio from './components/Portfolio';
-import Form from './components/Form';
+import Image from './components/Image';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,10 +16,12 @@ function App() {
           <Header />
 
           <Routes>
-                <Route path="/about" element={<About/>} />
-                <Route path="/portfolio" element={<Portfolio/>} />
-                <Route path="/contact" element={<Form/>} />
-              </Routes>
+            <Route path="/about" element={<Image />} />
+
+            <Route path="/portfolio" element={<Portfolio />} />
+
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
 
         </Router>
       </header>

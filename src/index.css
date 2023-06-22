@@ -11,12 +11,13 @@
 --h1-alternate: #1E3C32;
 
 /* LINK COLOR */
---a-standard: #002045;
+--a-standard: #5b1700;
 --a-alternate: #1E3C32;
---a-feature:  #5b1700;
+--a-feature:  #8d4918;
 
 /* GLOBAL COLORS */
 --grey-font: #151515;
+--contact-form: #474544;
 }
 
 

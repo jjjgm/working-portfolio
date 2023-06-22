@@ -1,6 +1,6 @@
-/* header {
-    min-height: 100vh;
-} */
+header {
+    min-height: 56vh;
+}
 
 .header-img {
     height: 100%;
@@ -19,7 +19,7 @@
 
 .logo-link {
     font-weight: 600;
-    font-size: 1.35em;
+    font-size: 2em;
     letter-spacing: .125em;
     text-transform: uppercase;
     text-decoration: none;
@@ -39,7 +39,7 @@
 
 .nav-menu-link {
     display: block;
-    font-size: 1em;
+    font-size: 1.14em;
     font-weight: 500;
     padding: .5em .75em;
     text-transform: uppercase;
@@ -50,22 +50,23 @@
 
 .header-opening {
     margin: auto;
-    max-width: 30em
+    max-width: 80em
 }
 
 .header-title {
-    color: var(--h1-alternate);
+    color: var(--h1-header);
     font-size: 5em;
-    letter-spacing: -.025em;
-    line-height: 1.25;
+    letter-spacing: -.055em;
+    line-height: -.65rem;
     margin-left: -.0625em;
     text-transform: uppercase;
+    display: flex;
 }
 
 .header-text {
     font-size: 1.34em;
     font-weight: 300;
-    hyphens: auto;
+    /* hyphens: auto; */
     line-height: 1.3;
     margin: 1em 0;
     font-family: var(--feature-sans-serif);
@@ -81,22 +82,6 @@
     width: 15em;
 } */
 
-/* button {
-    background: transparent;
-    border: none;
-    border-radius: 2em;
-    cursor: pointer;
-    font-size: .875em;
-    font-weight: 600;
-    height: 2em;
-    letter-spacing: -.025em;
-    text-transform: uppercase;
-    transition: .25s;
-}
-
-button:hover {
-    background-color: var(--item-bg)
-} */
 
 
 /* SMALLER SCREENS - TO DESKTOP */

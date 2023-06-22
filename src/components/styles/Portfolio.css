@@ -1,12 +1,13 @@
 .portfolio-grid {
     display: flex;
+    max-width: 100vw;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-top: 1.65rem;
+    margin-top: 1.8rem;
 }
 
 .portfolio-grid figure {
-    border: 1px solid #333;
+    border: 1px solid var(--contact-form);
     position: relative;
     font-size: 0;
     margin: 2% 1%;
@@ -34,12 +35,13 @@
     text-decoration: none;
     font-size: 1.89rem;
     font-weight: 200;
-    color: var(--a-standard);
+    color: var(--a-alternate);
     text-align: right;
 }
 
 .portfolio-grid figure caption a:hover {
-    font-size: 2.2rem;
+    font-size: 2.12rem;
+    top: -30%;
     color: var(--a-feature);
     text-align: right;
 }
