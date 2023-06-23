@@ -1,13 +1,13 @@
 header {
-    min-height: 56vh;
+    min-height: 60vh;
 }
 
-.header-img {
+/* .header-img {
     height: 100%;
     object-fit: cover;
     object-position: 50% 80%;
     width: 100%;
-}
+} */
 
 .container {
     padding: 1em;
@@ -18,7 +18,7 @@ header {
 }
 
 .logo-link {
-    font-weight: 600;
+    font-weight: 200;
     font-size: 2em;
     letter-spacing: .125em;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ header {
     max-width: 80em
 }
 
-.header-title {
+/* .header-title {
     color: var(--h1-header);
     font-size: 5em;
     letter-spacing: -.055em;
@@ -67,7 +67,19 @@ header {
     margin-left: -.0625em;
     text-transform: uppercase;
     display: flex;
-}
+} */
+
+.home-link {
+    color: var(--h1-header);
+    font-size: 2em;
+    letter-spacing: -.01em;
+    line-height: -0.45em;
+    margin-left: -.0625em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+} 
+
 
 .header-text {
     font-size: 1.34em;
