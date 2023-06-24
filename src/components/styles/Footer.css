@@ -1,16 +1,25 @@
-.footer-nav {
-    align-items: end;
-    flex-direction: column;
+/* FOOTER */
+footer {
+    border-top: 1px solid #2f2f2f;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
 }
 
 
-
-.footer-logo {
-    font-weight: 600;
-    font-size: 1.45em;
-    letter-spacing: .125em;
+footer a{
+    padding:0.86em;
+    font-size: 1.12rem;
     text-decoration: none;
     color: var(--a-alternate);
-    text-align: right;
-    padding: .5em .75em;
+}
+
+footer a:hover {
+    padding:0.86em;
+    font-size: 1.22rem;
+    color: var(--a-alternate);
 }

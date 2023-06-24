@@ -5,7 +5,10 @@ a working portfolio showcasing projects &amp; technical skills
 - React
 - react-router-dom
 - Google Fonts
+- React Icons
 
 ## Deployment
 [Heroku (Non-personalized domain)](https://working-portfolio-058a9af7ce37.herokuapp.com/)
+
+
 [Heroku Git](https://git.heroku.com/working-portfolio.git)
