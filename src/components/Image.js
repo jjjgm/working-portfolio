@@ -20,7 +20,7 @@ function Image()
                             <br />
                             <p>
 
-                                Currently, I'm diving into learning more about UI/UX accessibility principles.
+                                Currently, I'm diving into learning more about Automation & Machine Learning.
                             </p>
                         </div>
                     </div>
@@ -33,17 +33,15 @@ function Image()
                     <div className="col col-text col-left">
                         <div className="Aligner-item">
 
-                            <p> In addition to coding, I find joy in exploring local museums, cycling with friends, listening to podcasts, solving puzzles, learning cooking techniques, and occasionally indulging in evening gaming sessions.
+                            <p> In addition to programming and coding, I find joy in exploring local museums & restaurants, cycling with friends, listening to podcasts, solving puzzles, learning cooking techniques, and occasionally indulging in an evening gaming session.
                                 <br />
-                                <br />
-                                Growing up in the San Gabriel Valley region helped me develop a deep appreciation for the local mountain ranges and regional diversities of Southern California.
                             </p>
 
                         </div>
                     </div>
                 </div>
 
-                <div className="grid-flex">
+                {/* <div className="grid-flex">
                     <div className="col col-image" style={ { backgroundImage: "url(https://res.cloudinary.com/dtczjnpem/image/upload/v1687418911/11C2FA46-4AD7-423D-946C-5E1E9297401E_1_105_c_vvmbf4.jpg)" } } alt="A portrait in Napa, CA">
                         &nbsp;
                     </div>
@@ -53,8 +51,7 @@ function Image()
                             </p>
                         </div>
                     </div>
-                </div>
-
+                </div> */}
 
             </section>
         </div>

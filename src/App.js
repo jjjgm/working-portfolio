@@ -9,6 +9,7 @@ import Image from './components/Image';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -22,8 +23,10 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
 
             <Route path="/contact" element={<Contact />} />
-          </Routes>
 
+            <Route path="*"/>
+          </Routes>
+          
           <Footer/>
         </Router>
       </header>

@@ -23,11 +23,10 @@ function Header() {
 
                     <div className="header-opening container">
                         <h2 className="header-title">
-
-                       <Link to="/" className="home-link" alt="homepage link"> Jennifer Mejia</Link></h2>
+                            Jennifer Mejia</h2>
 
                         <p className="header-text">
-                            I'm a Full Stack Developer with extensive experience in operations and marketing.</p>
+                            I'm a Full Stack Developer with extensive experience in Project Management & Operations.</p>
                         
                     </div>
 
